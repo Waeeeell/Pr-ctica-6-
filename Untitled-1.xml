@@ -1,0 +1,139 @@
+
+<estoc>
+    <productes>
+        <ordinador>
+            <models>
+                <model id="asus">
+                    <nom>asus vivobook</nom>
+                        <unitats>10</unitats>
+                        <preu>500</preu>
+                </model>  
+                <model id="macbook">
+                    <nom>macbook</nom>
+                        <unitats>10</unitats>
+                        <preu>1250</preu>
+                </model>
+                <model id="imac">
+                    <nom>mac</nom>
+                        <unitats>10</unitats>
+                        <preu>3000</preu>
+                </model>
+            </models>
+        </ordinador>
+        <telèfons>
+            <models>
+                <model id="xiaomi">
+                    <nom>xiaomi</nom>
+                        <unitats>10</unitats>
+                        <preu>500</preu>
+                </model>
+                <model id="samsung">
+                    <nom>samsung</nom>
+                        <unitats>10</unitats>
+                        <preu>1000</preu>
+                </model>
+                <model id="apple">
+                    <nom>apple</nom>
+                        <unitats>10</unitats>
+                        <preu>1500</preu>
+                </model>
+            </models>
+        </telèfons>
+        <periferics>
+            <models>
+                <model id="logiech105">
+                    <nom>ratolí logiech105</nom>
+                        <unitats>10</unitats>
+                        <preu>500</preu>
+                </model>
+                <model id="razer7">
+                    <nom>teclat razer7</nom>
+                        <unitats>10</unitats>
+                        <preu>1000</preu>
+                </model>
+                <model id="logitech 200">
+                    <nom>cacos logitech200</nom>
+                        <unitats>10</unitats>
+                        <preu>1500</preu>  
+                </model>
+            </models>
+        </periferics>
+        <components>
+            <models>
+                <model id="RAM">
+                    <nom>RAM</nom>
+                        <unitats>10</unitats>
+                        <preu>500</preu>
+                </model>
+                <model id="processador">
+                    <nom>processador</nom>
+                        <unitats>10</unitats>
+                        <preu>1000</preu>
+                </model>
+                <model id="gràfica">
+                    <nom>targeta gràfica</nom>
+                        <unitats>10</unitats>
+                        <preu>1500</preu>
+                </model>
+            </models>
+        </components>
+    </productes>
+</estoc>
+<clients>
+    <client>
+        <nom>Francisco</nom>
+            <compres>
+                <model ref="asus">
+                    <quantitat>7</quantitat>
+                </model>
+                 <model ref="macbook">
+                    <quantitat>3</quantitat>
+                </model>
+                 <model ref="imac">
+                    <quantitat>9</quantitat>
+                </model>
+            </compres>
+    </client>
+    <client>
+        <nom>Juan</nom>
+            <compres>
+                <model ref="xiaomi">
+                    <quantitat>2</quantitat>
+                </model>
+                 <model ref="samsung">
+                    <quantitat>1</quantitat>
+                </model>
+                 <model ref="apple">
+                    <quantitat>3</quantitat>
+                </model>
+            </compres>
+    </client>
+    <client>
+        <nom>Pepe</nom>
+            <compres>
+                <model ref="logitech105">
+                    <quantitat>7</quantitat>
+                </model>
+                 <model ref="razer7">
+                    <quantitat>3</quantitat>
+                </model>
+                 <model ref="logitech200">
+                    <quantitat>9</quantitat>
+                </model>
+            </compres>
+    </client>
+    <client>
+        <nom>Maria</nom>
+            <compres>
+                <model ref="RAM">
+                    <quantitat>5</quantitat>
+                </model>
+                 <model ref="processador">
+                    <quantitat>7</quantitat>
+                </model>
+                 <model ref="gràfica">
+                    <quantitat>8</quantitat>
+                </model>
+            </compres>
+    </client>
+</clients>

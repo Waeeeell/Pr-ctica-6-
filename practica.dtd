@@ -1,0 +1,18 @@
+<!ELEMENT registre (estoc, clients)>
+<!ELEMENT estoc (productes*)>
+<!ELEMENT productes (ordinador, telèfons, periferics, components)>
+<!ELEMENT ordinador (models)>
+<!ELEMENT telèfons (models)>
+<!ELEMENT periferics (models)>
+<!ELEMENT components (models)>
+<!ELEMENT models (model+)>
+<!ELEMENT model (nom, unitats, preu)>
+<!ATTLIST model id ID #REQUIRED>
+<!ELEMENT clients (client+)>
+<!ELEMENT client (nom, compres)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT compres (model+)>
+<!ELEMENT model (quantitat)>
+<!ATTLIST model ref IDREF #REQUIRED>
+<!ELEMENT quantitat (#PCDATA)>
+
